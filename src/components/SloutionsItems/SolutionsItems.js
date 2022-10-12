@@ -14,6 +14,10 @@ const SolutionsItems = () => {
       title: "IT Nima?",
       link: "https://www.canva.com/design/DAFGdpoTUO0/fJUpU9cRovvNWxpJUVcC5A/view?utm_content=DAFGdpoTUO0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton#3",
     },
+    {
+      title: "Frontend Nima?",
+      link: "https://www.canva.com/design/DAFO0dm_Sas/EohMKpdCUkeT_s4y-rCA3Q/view?utm_content=DAFO0dm_Sas&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    },
   ];
   const { solutionId } = useParams();
 
