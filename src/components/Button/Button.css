@@ -1,0 +1,48 @@
+.mainBtn {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-5);
+  border-radius: 8px;
+  color: var(--white);
+  padding: 16px 32px;
+  text-transform: uppercase;
+  overflow: hidden;
+  background: var(--red-orange-color-wheel);
+}
+.mainBtn .btn-text {
+  position: relative;
+  z-index: 5;
+}
+.mainBtn .square {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: 0.25s ease;
+}
+
+.mainBtn .square {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: var(--default-transition);
+}
+
+.mainBtn:hover .square {
+  right: -2px;
+  width: 102%;
+  height: 102%;
+}
+
+.mainBtn .square,
+.mainBtn-secondary {
+  background: var(--oxford-blue);
+}

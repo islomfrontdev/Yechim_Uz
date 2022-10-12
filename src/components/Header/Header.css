@@ -1,0 +1,29 @@
+.logo {
+  width: 170px;
+  height: 100px;
+  object-fit: cover;
+}
+.header {
+  background: hsla(0, 0%, 100%, 0.9);
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 20px -5px hsla(0, 0%, 0%, 0.03);
+  z-index: 100;
+  position: sticky;
+
+  top: 0;
+  width: 100%;
+}
+.nav-link {
+  color: hsl(229, 84%, 12%);
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: all 0.2s ease;
+  line-height: 6px;
+}
+.nav-link:hover {
+  color: hsl(15, 100%, 55%);
+}

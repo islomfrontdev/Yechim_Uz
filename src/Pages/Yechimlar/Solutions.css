@@ -1,0 +1,114 @@
+.category .section-subtitle {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.category .section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.category .course-item-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.course-category-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid hsl(0, 0%, 67%);
+  border-radius: 8px;
+  padding: 25px;
+  transition: var(--default-transition);
+}
+
+.course-category-item:hover {
+  background: var(--red-orange-color-wheel);
+  border-color: var(--red-orange-color-wheel);
+  box-shadow: 0 10px 50px -20px var(--red-orange-color-wheel);
+}
+
+.category-icon {
+  width: 50px;
+}
+
+.category-icon.hover,
+.course-category-item:hover .category-icon.default {
+  display: none;
+}
+
+.category-icon.default,
+.course-category-item:hover .category-icon.hover {
+  display: block;
+}
+.category-title {
+  text-transform: capitalize;
+}
+.category-title a {
+  color: var(--oxford-blue);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-7);
+}
+
+.category-subtitle {
+  font-family: "Roboto", sans-serif;
+  color: var(--sonic-silver);
+  font-size: var(--fs-6);
+}
+
+.course-category-item:hover .category-title a,
+.course-category-item:hover .category-subtitle {
+  color: var(--white);
+}
+.searchBox {
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 0 hsla(0, 0%, 100%, 1);
+}
+.searchBox .searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  color: #999;
+  background-color: transparent;
+}
+
+.searchBox:hover {
+  background-color: var(--red-orange-color-wheel);
+  width: 300px;
+  border: 1px solid var(--red-orange-color-wheel);
+}
+.searchBox:hover .searchInput {
+  color: #fff;
+}
+.searchBox:hover .searchInput::placeholder {
+  color: #fff;
+}
+.link_box {
+  border: 1px solid hsl(0, 0%, 67%);
+  border-radius: 8px;
+  padding: 10px 25px;
+  transition: var(--default-transition);
+}
+.link_box a {
+  color: var(--red-orange-color-wheel);
+}
+.link_box p {
+  font-size: 20px;
+}
+.link_box:hover {
+  background: var(--red-orange-color-wheel);
+  border-color: var(--red-orange-color-wheel);
+  box-shadow: 0 10px 50px -20px var(--red-orange-color-wheel);
+}
+.link_box:hover a {
+  color: #fff;
+}
